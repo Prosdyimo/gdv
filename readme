@@ -1,0 +1,11 @@
+Ideen
+1 - Development of the total population over the last 5 years for district and urban district
+2 - Children and retirees compared to the total population
+3 - Living space compared to the number of households, subdivided into rental apartments and non rental apartments
+4 - Living space compared to the total population
+5 - Average income per district in relation to the average housing size for the year 2015-2020 (current_data not available)
+6 - EInkommen und Optimales Einnkommen pro district
+
+Dataset_1 => https://data.stadt-zuerich.ch/dataset/bau_neubau_whg_hh_whnfl_bp_zizahl_eart_hhtyp_quart_od6991
+Dataset_2 => https://data.stadt-zuerich.ch/dataset/fd_median_einkommen_kreis_od1007
+Dataset_3 => https://data.stadt-zuerich.ch/dataset/fd_median_hhaequeinkommen_kreis_od100b
