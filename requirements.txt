@@ -9,3 +9,5 @@ cartopy
 highlight-text
 pypalettes
 pyfonts
+seaborn
+plotly
