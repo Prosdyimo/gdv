@@ -1,2 +1,11 @@
-numpy==2.1.1
-pandas==2.2.3
+matplotlib
+numpy
+pandas
+
+squarify
+pywaffle
+geopandas
+cartopy
+highlight-text
+pypalettes
+pyfonts
