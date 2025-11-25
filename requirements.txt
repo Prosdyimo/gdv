@@ -1,7 +1,6 @@
 matplotlib
 numpy
 pandas
-
 squarify
 pywaffle
 geopandas
