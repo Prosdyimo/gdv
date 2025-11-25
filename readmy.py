@@ -1,4 +1,12 @@
-#Zurich Housing & Demographics Visualization Project
+# generate_readme.py
+"""
+Small helper script to create/update the README.md file for the project.
+
+Running this file will overwrite (or create) README.md in the current directory
+with the content defined in `README_CONTENT` below.
+"""
+
+README_CONTENT = """#Zurich Housing & Demographics Visualization Project
 
 This project analyzes and visualizes several aspects of urban development in the city of Zurich, including demographic change, housing expansion, income evolution, and residential construction patterns. Multiple open datasets from *Open Data Zürich* are combined to create a comprehensive set of visualizations.
 
@@ -50,7 +58,7 @@ cd GDV
 bash
 python3 -m venv venv_gdv
 source venv_gdv/bin/activate      # Mac/Linux
-venv_gdv\Scripts\activate         # Windows
+venv_gdv\\Scripts\\activate         # Windows
 
 
 ### 3️ Install the dependencies
@@ -176,3 +184,21 @@ This project aims to:
 
 All data comes from **Open Data Zürich**, free to use.  
 Project code can be reused and modified freely (MIT license recommended).
+"""
+
+def write_readme(path: str = "README.md") -> None:
+    """
+    Write the README_CONTENT string to a markdown file.
+
+    Parameters
+    ----------
+    path : str
+        Output path for the README file. Defaults to "README.md".
+    """
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(README_CONTENT)
+    print(f"README written to {path!r}")
+
+
+if __name__ == "__main__":
+    write_readme()
