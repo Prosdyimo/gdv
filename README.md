@@ -144,5 +144,4 @@ This project aims to:
 
 ## License
 
-All data comes from **Open Data Zürich**, free to use.  
-Project code can be reused and modified freely (MIT license recommended).
+All data comes from **Open Data Zürich**, free to use. 
