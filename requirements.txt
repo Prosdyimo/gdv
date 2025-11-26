@@ -1,0 +1,12 @@
+matplotlib
+numpy
+pandas
+squarify
+pywaffle
+geopandas
+cartopy
+highlight-text
+pypalettes
+pyfonts
+seaborn
+plotly
